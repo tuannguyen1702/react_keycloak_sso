@@ -1,0 +1,68 @@
+.form-control {
+    padding-top: $paddingControl;
+    padding-bottom: $paddingControl;
+} 
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    span{
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    &:hover:not([disabled]) {
+        cursor: pointer;
+    }
+
+    font-size: 14px;
+    line-height: 24px;
+}
+.form-control-label{
+    font-weight: 600;
+    font-size: 110%;
+}
+
+.btn-link, .link{
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #1e56a0;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    &:hover {
+        color: #1e56a0;
+    }
+}
+
+a:not([href]):not([tabindex]) {
+    color: #1e56a0;
+     &:hover {
+        color: #1e56a0;
+        cursor: pointer;
+    }
+}
+
+.row{
+    max-height: 100%;
+}
+
+.btn-group-lg>.btn, .btn-lg
+{
+    font-size: 18px;
+}
+.form-control-label + label {
+    margin-top: 0;
+}
+
+.alert-primary {
+    color: #1e56a0;
+    background-color: #eef7ff;
+    border:1px solid #b4c5db;
+}
+
+.alert-secondary {
+    background-color:#f0f0f0;
+    border:1px solid #c8c8c8;
+}
+.my-4 {
+    border-style: dashed;
+}
